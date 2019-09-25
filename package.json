@@ -1,0 +1,15 @@
+{
+  "name": "study-es6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/hmateus/study-es6.git",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0"
+  },
+  "scripts": {
+    "dev": "babel ./main.js -o ./bundle.js -w"
+  }
+}
